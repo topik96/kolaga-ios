@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5E588E1EC9078F007A7128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E588D1EC9078F007A7128 /* AppDelegate.swift */; };
+		4A5E58901EC9078F007A7128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E588F1EC9078F007A7128 /* ViewController.swift */; };
+		4A5E58931EC9078F007A7128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E58911EC9078F007A7128 /* Main.storyboard */; };
+		4A5E58961EC9078F007A7128 /* Kolaga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E58941EC9078F007A7128 /* Kolaga.xcdatamodeld */; };
+		4A5E58981EC9078F007A7128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E58971EC9078F007A7128 /* Assets.xcassets */; };
+		4A5E589B1EC9078F007A7128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E58991EC9078F007A7128 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A5E588A1EC9078F007A7128 /* Kolaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kolaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5E588D1EC9078F007A7128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A5E588F1EC9078F007A7128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A5E58921EC9078F007A7128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5E58951EC9078F007A7128 /* Kolaga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kolaga.xcdatamodel; sourceTree = "<group>"; };
+		4A5E58971EC9078F007A7128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5E589A1EC9078F007A7128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A5E589C1EC9078F007A7128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5E58871EC9078F007A7128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5E58811EC9078F007A7128 = {
+			isa = PBXGroup;
+			children = (
+				4A5E588C1EC9078F007A7128 /* Kolaga */,
+				4A5E588B1EC9078F007A7128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5E588B1EC9078F007A7128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E588A1EC9078F007A7128 /* Kolaga.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5E588C1EC9078F007A7128 /* Kolaga */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E588D1EC9078F007A7128 /* AppDelegate.swift */,
+				4A5E588F1EC9078F007A7128 /* ViewController.swift */,
+				4A5E58911EC9078F007A7128 /* Main.storyboard */,
+				4A5E58971EC9078F007A7128 /* Assets.xcassets */,
+				4A5E58991EC9078F007A7128 /* LaunchScreen.storyboard */,
+				4A5E589C1EC9078F007A7128 /* Info.plist */,
+				4A5E58941EC9078F007A7128 /* Kolaga.xcdatamodeld */,
+			);
+			path = Kolaga;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5E58891EC9078F007A7128 /* Kolaga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5E589F1EC9078F007A7128 /* Build configuration list for PBXNativeTarget "Kolaga" */;
+			buildPhases = (
+				4A5E58861EC9078F007A7128 /* Sources */,
+				4A5E58871EC9078F007A7128 /* Frameworks */,
+				4A5E58881EC9078F007A7128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kolaga;
+			productName = Kolaga;
+			productReference = 4A5E588A1EC9078F007A7128 /* Kolaga.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5E58821EC9078F007A7128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "topik mujianto";
+				TargetAttributes = {
+					4A5E58891EC9078F007A7128 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ7QSH2ETY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4A5E58851EC9078F007A7128 /* Build configuration list for PBXProject "Kolaga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5E58811EC9078F007A7128;
+			productRefGroup = 4A5E588B1EC9078F007A7128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5E58891EC9078F007A7128 /* Kolaga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5E58881EC9078F007A7128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5E589B1EC9078F007A7128 /* LaunchScreen.storyboard in Resources */,
+				4A5E58981EC9078F007A7128 /* Assets.xcassets in Resources */,
+				4A5E58931EC9078F007A7128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5E58861EC9078F007A7128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5E58961EC9078F007A7128 /* Kolaga.xcdatamodeld in Sources */,
+				4A5E58901EC9078F007A7128 /* ViewController.swift in Sources */,
+				4A5E588E1EC9078F007A7128 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A5E58911EC9078F007A7128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5E58921EC9078F007A7128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5E58991EC9078F007A7128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5E589A1EC9078F007A7128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5E589D1EC9078F007A7128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5E589E1EC9078F007A7128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5E58A01EC9078F007A7128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ7QSH2ETY;
+				INFOPLIST_FILE = Kolaga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feebe.Kolaga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4A5E58A11EC9078F007A7128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ7QSH2ETY;
+				INFOPLIST_FILE = Kolaga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feebe.Kolaga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5E58851EC9078F007A7128 /* Build configuration list for PBXProject "Kolaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5E589D1EC9078F007A7128 /* Debug */,
+				4A5E589E1EC9078F007A7128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5E589F1EC9078F007A7128 /* Build configuration list for PBXNativeTarget "Kolaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5E58A01EC9078F007A7128 /* Debug */,
+				4A5E58A11EC9078F007A7128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A5E58941EC9078F007A7128 /* Kolaga.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A5E58951EC9078F007A7128 /* Kolaga.xcdatamodel */,
+			);
+			currentVersion = 4A5E58951EC9078F007A7128 /* Kolaga.xcdatamodel */;
+			path = Kolaga.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A5E58821EC9078F007A7128 /* Project object */;
+}
